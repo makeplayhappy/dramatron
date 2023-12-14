@@ -2,6 +2,23 @@
 
 <img src="dramatron-animation.gif" />
 
+## Try Dramatron Locally using Kobold and Jupyter
+
+I've added a new Jupyter notebook with a generator using [Koboldcpp API](https://github.com/LostRuins/koboldcpp) so you can run this using a local LLM server.
+
+You can run Jupyter notebooks locally with this command 
+```
+jupyter notebook
+```
+or if you want to run it on a local server (change 192.168.1.10 to whatever your local server's IP is)
+```
+jupyter notebook --no-browser --ip="192.168.1.10" --port=7080
+```
+then you can open up http://192.168.1.10:7080 in a browser to connect to it
+
+### ORIGINAL README BELOW
+___
+
 ## Try Dramatron
 
 **Dramatron** can be run using the a web UI or as a Colab.
